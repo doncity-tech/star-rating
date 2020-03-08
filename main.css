@@ -27,6 +27,11 @@ header span {
     padding: 5px 10px;
 }
 
+header h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
 h1, h3 {
 	color: white;
 	text-align: center;
@@ -61,14 +66,14 @@ h1, h3 {
 #rating {
     text-align: center;
 	display: inline-block;
-	cursor: pointer;
     padding: 50px 0;
     font-size: 30px;
 }
 .rate-p {
 	color: #d6d6d6;
 	position: relative;
-	display: inline-block;
+    display: inline-block;
+    cursor: pointer;
 }
 .rate {
 	display: none;
