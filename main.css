@@ -66,14 +66,14 @@ h1, h3 {
 #rating {
     text-align: center;
 	display: inline-block;
-	cursor: pointer;
     padding: 50px 0;
     font-size: 30px;
 }
 .rate-p {
 	color: #d6d6d6;
 	position: relative;
-	display: inline-block;
+    display: inline-block;
+    cursor: pointer;
 }
 .rate {
 	display: none;
